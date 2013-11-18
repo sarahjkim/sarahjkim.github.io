@@ -1,0 +1,62 @@
+html {
+    background-color: #F6F6F6;
+}
+body {
+    margin: 0px;
+    font-family: "Open Sans", "Helvetica", "Arial", sans serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+img {
+    height: 100%;
+}
+.clear {
+    clear: both;
+}
+#pictureofme {
+    width: 600px;
+    position: fixed;
+    z-index: -10;
+}
+#content {
+    position: fixed;
+    left: 55%;
+    top: 13%;
+    margin-right: 100px;
+}
+#name {
+    font-size: 45px;
+    font-weight: 500;
+}
+#description {
+    font-style: italic;
+}
+.header {
+    font-size: 30px;
+    font-weight: 100;
+    margin: 20px 0px 0px;
+}
+.text {
+    font-size: 15;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 10px;
+}
+#buttonbar {
+    margin-top: 20px;
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    display: inline-block;
+    margin: 0px 5px;
+    padding: 7px;
+    width: 80px;
+    text-align: center;
+    background: #D0D0D0;
+    border-radius: 2px;
+}
