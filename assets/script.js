@@ -30,6 +30,12 @@ $(document).ready(function(){
         $('#projectstag').hide();
     });
 
+    $('#blogicon').hover(function() {
+        $('#blogtag').show();
+    }, function() {
+        $('#blogtag').hide();
+    });
+
     $('#resumeicon').hover(function() {
         $('#resumetag').show();
     }, function() {

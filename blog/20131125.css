@@ -76,47 +76,42 @@ img {
 #emailtag {
     top: 308px;
 }
-#pictureofme {
-    width: 600px;
-    position: fixed;
-    z-index: -10;
-}
 #content {
-    position: fixed;
-    left: 55%;
-    top: 13%;
-    margin-right: 100px;
-}
-#name {
-    font-size: 45px;
-    font-weight: 500;
-}
-#description {
-    font-style: italic;
-}
-.header {
-    font-size: 30px;
-    font-weight: 100;
-    margin: 20px 0px 0px;
-}
-.text {
-    font-size: 15;
-    font-weight: 300;
-    line-height: 25px;
-    margin-top: 10px;
-}
-#buttonbar {
-    margin-top: 20px;
-    width: 440px;
+    width: 680px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
-.button {
-    display: inline-block;
-    margin: 0px 5px;
-    padding: 7px;
-    width: 80px;
-    text-align: center;
-    background: #D0D0D0;
-    border-radius: 2px;
+#title {
+    padding-top: 40px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
+}
+#date {
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+#text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 15px;
+}
+#space {
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+}
+#references {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.reference {
+    margin-top: 5px;
 }
