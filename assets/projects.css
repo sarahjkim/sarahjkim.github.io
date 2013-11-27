@@ -76,47 +76,64 @@ img {
 #emailtag {
     top: 308px;
 }
-#pictureofme {
-    width: 600px;
-    position: fixed;
-    z-index: -10;
-}
 #content {
-    position: fixed;
-    left: 55%;
-    top: 13%;
-    margin-right: 100px;
-}
-#name {
-    font-size: 50px;
-    font-weight: 600;
-}
-#description {
-    font-style: italic;
-}
-.header {
-    font-size: 30px;
-    font-weight: 100;
-    margin: 20px 0px 0px;
-}
-.text {
-    font-size: 15;
-    font-weight: 300;
-    line-height: 25px;
-    margin-top: 10px;
-}
-#buttonbar {
-    margin-top: 20px;
-    width: 440px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 40px;
+}
+#pagetitle {
+    padding-top: 30px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.project {
+    padding-top: 30px;
+}
+.projpic {
+    border: 1px solid #999;
+    width: 550px;
+    display: inline-block;
+}
+.projinfo {
+    display: inline-block;
+    float: right;
+    width: 410px;
+}
+.projtitle {
+    margin: 10px 0px 3px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.projtime {
+    font-size: 15px;
+    font-style: italic;
+    line-height: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+.projdescript {
+    margin: 15px 0px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 24px;
+}
+.buttonbar {
+    margin-top: 5px;
 }
 .button {
     display: inline-block;
-    margin: 0px 5px;
+    margin-right: 10px;
     padding: 7px;
     width: 80px;
     text-align: center;
     background: #D0D0D0;
     border-radius: 2px;
+}
+#csuapic {
+    height: 335px;
+}
+#personalpic {
+    height: 335px;
 }
