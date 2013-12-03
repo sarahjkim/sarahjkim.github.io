@@ -119,6 +119,7 @@ img {
     background-color: white;
     padding: 25px;
     border-radius: 2px;
+    margin-bottom: 20px;
 }
 .posttitle {
     font-size: 22px;
@@ -145,4 +146,7 @@ img {
     font-size: 14px;
     line-height: 24px;
     font-weight: 300;
+}
+#nothere {
+    display: none;
 }

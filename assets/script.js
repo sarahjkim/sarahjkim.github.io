@@ -74,21 +74,33 @@ $(document).ready(function(){
         $(this).parent().children().css('color', '#999');
         $(this).css('color', '#00B2EE');
         var id = $(this).attr('id');
+        var title = " " + $(this).html() + '.';
         $('.blogpost').hide();
         if (id == 'alltime' | id=='all') {
             $('.blogpost').show(400);
+            $('#nothere').hide();
         } else if (id == '201311') {
+            $('#nothere').hide();
             $('.201311').show(400);
         } else if (id == '201312') {
             $('.201312').show(400);
+            $('#nothere').append(title);
+            $('#nothere').show(400);
         } else if (id == 'christianity') {
             $('.christianity').show(400);
+            $('#nothere').append(title);
+            $('#nothere').show(400);
         } else if (id == 'cs') {
             $('.cs').show(400);
+            $('#nothere').append(title);
+            $('#nothere').show(400);
         } else if (id == 'gov') {
+            $('#nothere').hide();
             $('.gov').show(400);
         } else if (id == 'personal') {
             $('.personal').show(400);
+            $('#nothere').append(title);
+            $('#nothere').show(400);
         }
     });
 
