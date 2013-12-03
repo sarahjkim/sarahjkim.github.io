@@ -76,11 +76,21 @@ img {
 #emailtag {
     top: 308px;
 }
-#content {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 40px;
+@media (min-width: 1140px) {
+    #content {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 40px 40px 80px;
+    }
+}
+@media (max-width: 1140px) {
+    #content {
+        width: 880px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 40px 40px 80px;
+    }
 }
 #pagetitle {
     padding-top: 30px;
@@ -88,23 +98,58 @@ img {
     font-weight: 700;
     line-height: 55px;
 }
-.project {
-    padding-top: 30px;
+@media (min-width: 1140px) {
+    .project {
+        padding-top: 30px;
+    }
 }
-.projpic {
-    border: 1px solid #999;
-    width: 550px;
-    display: inline-block;
+@media (max-width: 1140px) {
+    .project {
+        padding-top: 50px;
+    }
 }
-.projinfo {
-    display: inline-block;
-    float: right;
-    width: 410px;
+@media (min-width: 1140px) {
+    .projpic {
+        border: 1px solid #999;
+        width: 550px;
+        display: inline-block;
+    }
 }
-.projtitle {
-    margin: 10px 0px 3px;
-    font-size: 30px;
-    font-weight: 700;
+@media (max-width: 1140px) {
+    .projpic {
+        border: 1px solid #999;
+        width: 480px;
+        display: inline-block;
+    }
+}
+@media (min-width: 1140px) {
+    .projinfo {
+        display: inline-block;
+        float: right;
+        width: 410px;
+    }
+}
+@media (max-width: 1140px) {
+    .projinfo {
+        display: inline-block;
+        float: right;
+        width: 360px;
+    }
+}
+@media (min-width: 1140px) {
+    .projtitle {
+        margin: 10px 0px 3px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+@media (max-width: 1140px) {
+    .projtitle {
+        margin: 0px 0px 3px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+    }
 }
 .projtime {
     font-size: 15px;
@@ -113,11 +158,21 @@ img {
     padding-bottom: 15px;
     border-bottom: 1px solid black;
 }
-.projdescript {
-    margin: 15px 0px;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 24px;
+@media (min-width: 1140px) {
+    .projdescript {
+        margin: 15px 0px;
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 24px;
+    }
+}
+@media (max-width: 1140px) {
+    .projdescript {
+        margin: 13px 0px;
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 23px;
+    }
 }
 .buttonbar {
     margin-top: 5px;
@@ -131,9 +186,19 @@ img {
     background: #D0D0D0;
     border-radius: 2px;
 }
-#csuapic {
-    height: 335px;
+@media (min-width: 1140px) {
+    #csuapic {
+        height: 335px;
+    }
+    #personalpic {
+        height: 335px;
+    }
 }
-#personalpic {
-    height: 335px;
+@media (max-width: 1140px) {
+    #csuapic {
+        height: 292.5px;
+    }
+    #personalpic {
+        height: 292.5px;
+    }
 }
