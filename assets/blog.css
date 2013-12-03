@@ -1,0 +1,148 @@
+html {
+    background-color: #F6F6F6;
+}
+body {
+    margin: 0px;
+    font-family: "Open Sans", "Helvetica", "Arial", sans serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+img {
+    height: 100%;
+}
+.clear {
+    clear: both;
+}
+#sidebar {
+    width: 40px;
+    height: 100%;
+    position: fixed;
+    z-index: 5;
+    background: #444;
+}
+#more {
+    height: 25px;
+    position: fixed;
+    bottom: 15px;
+    left: 7px;
+}
+#sidebarfull {
+    left: -65px;
+    overflow: hidden;
+    width: 65px;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    background: #444;
+}
+.icon {
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #DDD;
+    margin-top: 12px;
+    padding: 3px;
+    border-radius: 2px;
+}
+.tag {
+    display: none;
+    position: fixed;
+    left: 75px;
+    background: #D0D0D0;
+    padding: 5px 3px;
+    width: 70px;
+    border-right: 2px;
+    text-align: center;
+}
+#abouttag {
+    top: 22px;
+}
+#worktag {
+    top: 79px;
+}
+#projectstag {
+    top: 136px;
+}
+#blogtag {
+    top: 193px;
+}
+#resumetag {
+    top: 251px;
+}
+#emailtag {
+    top: 308px;
+}
+#blogbar {
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    border-left: 2px solid #444;
+    width: 160px;
+    padding: 20px;
+}
+.bartitle {
+    font-weight: 700;
+    margin-top: 20px;
+    color: #444;
+}
+.bardescript {
+    font-size: 14px;
+    font-weight: 300;
+}
+.barpoint {
+    font-size: 14px;
+    font-weight: 300;
+    color: #999;
+}
+#alltime {
+    color: #00B2EE;
+}
+#all {
+    color: #00B2EE;
+}
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 240px 40px 80px;
+}
+#pagetitle {
+    padding: 30px 0px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.blogpost {
+    background-color: white;
+    padding: 25px;
+    border-radius: 2px;
+}
+.posttitle {
+    font-size: 22px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.postcategory {
+    display: inline-block;
+    margin-left: 30px;
+    background-color: #DDD;
+    font-size: 13px;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+.postdate {
+    font-size: 15px;
+    font-style: italic;
+    border-bottom: 1px solid #00B2EE;
+    padding-bottom: 10px;
+}
+.postsnippet {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
