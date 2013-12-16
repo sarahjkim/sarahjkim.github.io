@@ -83,17 +83,15 @@ $(document).ready(function(){
             $('#nothere').hide();
             $('.201311').show(400);
         } else if (id == '201312') {
+            $('#nothere').hide();
             $('.201312').show(400);
-            $('#nothere').append(title);
-            $('#nothere').show(400);
         } else if (id == 'christianity') {
             $('.christianity').show(400);
             $('#nothere').append(title);
             $('#nothere').show(400);
         } else if (id == 'cs') {
+            $('#nothere').hide();
             $('.cs').show(400);
-            $('#nothere').append(title);
-            $('#nothere').show(400);
         } else if (id == 'gov') {
             $('#nothere').hide();
             $('.gov').show(400);
