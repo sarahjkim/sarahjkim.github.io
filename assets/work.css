@@ -144,3 +144,6 @@ img {
     line-height: 24px;
     font-weight: 300;
 }
+.jobdescript a {
+    color: #00B2EE;
+}
