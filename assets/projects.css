@@ -190,6 +190,18 @@ img {
     #csuapic {
         height: 335px;
     }
+    #graphpic {
+        height: 415px;
+    }
+    #jumpingpic {
+        height: 416px;
+    }
+    #textpic {
+        height: 401px;
+    }
+    #enigmapic {
+        height: 393px;
+    }
     #personalpic {
         height: 335px;
     }
@@ -197,6 +209,18 @@ img {
 @media (max-width: 1140px) {
     #csuapic {
         height: 292.5px;
+    }
+    #graphpic {
+        height: 362px;
+    }
+    #jumpingpic {
+        height: 363px;
+    }
+    #textpic {
+        height: 350px;
+    }
+    #enigmapic {
+        height: 343px;
     }
     #personalpic {
         height: 292.5px;
