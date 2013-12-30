@@ -123,26 +123,27 @@ img {
 }
 .posttitle {
     font-size: 22px;
-    display: inline-block;
     font-weight: 700;
     margin-bottom: 2px;
-}
-.postcategory {
-    display: inline-block;
-    margin-left: 30px;
-    background-color: #DDD;
-    font-size: 13px;
-    padding: 2px 10px;
-    border-radius: 10px;
 }
 .postdate {
     font-size: 15px;
     font-style: italic;
-    border-bottom: 1px solid #00B2EE;
     padding-bottom: 10px;
+    display: inline-block;
+}
+.postcategory {
+    display: inline-block;
+    background-color: #DDD;
+    font-size: 13px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    float: right;
 }
 .postsnippet {
-    margin-top: 10px;
+    border-top: 1px solid #00B2EE;
+    padding-top: 10px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 300;

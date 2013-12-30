@@ -96,9 +96,8 @@ $(document).ready(function(){
             $('#nothere').hide();
             $('.gov').show(400);
         } else if (id == 'personal') {
+            $('#nothere').hide();
             $('.personal').show(400);
-            $('#nothere').append(title);
-            $('#nothere').show(400);
         }
     });
 
