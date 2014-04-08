@@ -88,6 +88,9 @@ $(document).ready(function(){
         } else if (id == '201402') {
             $('#nothere').hide();
             $('.201402').show();
+        } else if (id == '201404') {
+            $('#nothere').hide();
+            $('.201404').show();
         } else if (id == 'christianity') {
             $('.christianity').show();
             $('#nothere').append(title);
