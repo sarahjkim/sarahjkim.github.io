@@ -1,0 +1,57 @@
+.pic {
+    border: 1px solid #DDD;
+}
+#pic0 {
+    height: 415px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#pic1 {
+    height: 305px;
+}
+#pic2 {
+    height: 233px;
+}
+#pic3 {
+    height: 406px;
+}
+#pic4 {
+    height: 376px;
+}
+#pic5 {
+    height: 476px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#pic6 {
+    height: 406px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#pic7 {
+    height: 394px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#pic8 {
+    height: 477px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#pic9 {
+    height: 317.5px;
+}
+#pic10 {
+    height: 256.5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#pic11 {
+    height: 132px;
+}
+#pic12 {
+    height: 171px;
+}
+#pic13 {
+    height: 222px;
+}
