@@ -1,0 +1,52 @@
+html {
+    background-color: #F6F6F6;
+}
+body {
+    margin: 0px;
+    font-family: "Open Sans", "Helvetica", "Arial", sans serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+img {
+    height: 100%;
+}
+.clear {
+    clear: both;
+}
+#sidebar {
+    position: fixed;
+    width: 140px;
+    height: 100%;
+    left: -140px;
+    overflow: hidden;
+    z-index: 10;
+    background: #444;
+    padding: 20px;
+}
+#sidebar-content {
+    height: 100%;
+}
+.sidebar-name {
+    font-size: 22px;
+    color: white;
+    line-height: 24px;
+}
+.sidebar-category {
+    margin-top: 20px;
+    line-height: 25px;
+    color: #222;
+}
+.sidebar-item {
+    color: #CCC;
+    font-weight: 300;
+    line-height: 25px;
+}
+#more {
+    height: 25px;
+    position: fixed;
+    bottom: 15px;
+    left: 7px;
+}

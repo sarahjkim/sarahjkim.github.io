@@ -2,9 +2,10 @@
 <head>
     <title>Blog | Sarah Kim</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="assets/blog.css"/>
-    <script src="assets/jquery-1.9.1.js"></script>
-    <script src="assets/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/blog.css"/>
+    <script src="assets/js/jquery-1.9.1.js"></script>
+    <script src="assets/js/script.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,56 +17,24 @@
 </head>
 <body>
     <div id="sidebar">
-        <div id="more">
-            <!-- Read More designed by P.J. Onori from The Noun Project --!>
-            <img src="assets/more.svg">
+        <div id="sidebar-content">
+            <div class="sidebar-name">Sarah Jiyun Kim</div>
+            <div class="sidebar-category">Pages</div>
+            <a href="index.html"><div class="sidebar-item">About</div></a>
+            <a href="work.html"><div class="sidebar-item">Work</div></a>
+            <a href="projects.html"><div class="sidebar-item">Projects</div></a>
+            <a href="organizations.html"><div class="sidebar-item">Organizations</div></a>
+            <a href="blog.html"><div class="sidebar-item">Blog</div></a>
+            <div class="sidebar-category">Contact</div>
+            <a href="assets/resume.pdf"><div class="sidebar-item">Resume</div></a>
+            <a href="https://github.com/sarahjkim"><div class="sidebar-item">GitHub</div></a>
+            <a href="http://www.linkedin.com/in/sarahjkim"><div class="sidebar-item">LinkedIn</div></a>
+            <a href="mailto:sarahjkim@berkeley.edu"><div class="sidebar-item">Email</div></a>
+            <div id="more">
+                <!-- Read More designed by P.J. Onori from The Noun Project --!>
+                <img src="assets/images/more.svg">
+            </div>
         </div>
-    </div>
-    <div id="sidebarfull">
-        <div id="abouticon" class="icon">
-            <!-- Person designed by Alex Fuller from The Noun Project --!>
-            <a href="http://www.sarahjikim.com/index.html">
-                <img src="assets/about.svg">
-            </a>
-        </div>
-        <div id="workicon" class="icon">
-            <!-- Worker designed by James Fenton from The Noun Project --!>
-            <a href="http://www.sarahjikim.com/work.html">
-                <img src="assets/work.svg">
-            </a>
-        </div>
-        <div id="projectsicon" class="icon">
-            <!-- Laptop designed by Ivan Colic from The Noun Project --!>
-            <a href="http://www.sarahjikim.com/projects.html">
-                <img src="assets/projects.svg">
-            </a>
-        </div>
-        <div id="blogicon" class="icon">
-            <!-- Notebook designed by Sarah Abraham from The Noun Project --!>
-            <a href="http://www.sarahjikim.com/blog.html">
-                <img src="assets/blog.svg">
-            </a>
-        </div>
-        <div id="resumeicon" class="icon">
-            <!-- Profile designed by Ryan Beck from The Noun Project --!>
-            <a href="assets/resume.pdf">
-                <img src="assets/resume.svg">
-            </a>
-        </div>
-        <div id="emailicon" class="icon">
-            <!-- Email designed by Martha Ormiston from The Noun Project --!>
-            <a href="mailto:sarahjkim@berkeley.edu">
-                <img src="assets/email.svg">
-            </a>
-        </div>
-    </div>
-    <div id="sidebartags">
-        <div id="abouttag" class="tag">About</div>
-        <div id="worktag" class="tag">Work</div>
-        <div id="projectstag" class="tag">Projects</div>
-        <div id="blogtag" class="tag">Blog</div>
-        <div id="resumetag" class="tag">Resume</div>
-        <div id="emailtag" class="tag">Email</div>
     </div>
     <div id="blogbar">
         <div class="barcategory">
@@ -103,7 +72,7 @@
     </div>
     <div id="content">
         <div id="pagetitle">Blog</div>
-        <a href="http://www.sarahjikim.com/blog/20140408.html">
+        <a href="blog/20140408.html">
         <div class="blogpost 201404 gov personal">
             <div class="posttitle">What I Would Change About UC Berkeley</div>
             <div class="postdate">Tuesday, April 8, 2014</div>
@@ -121,7 +90,7 @@
                 can be motivated by my words.
             </div>
         </div></a>
-        <a href="http://www.sarahjikim.com/blog/20140209.html">
+        <a href="blog/20140209.html">
         <div class="blogpost 201402 cs personal">
             <div class="posttitle">A Response to "Breeding the Tech Elite"</div>
             <div class="postdate">Sunday, February 9, 2014</div>
@@ -135,7 +104,7 @@
                 and knowledge to better society?"
             </div>
         </div></a>
-        <a href="http://www.sarahjikim.com/blog/20131227.html">
+        <a href="blog/20131227.html">
         <div class="blogpost 201312 cs personal">
             <div class="posttitle">One Year of CS</div>
             <div class="postdate">Friday, December 27, 2013</div>
@@ -149,7 +118,7 @@
                 remind myself of this first year of CS.
             </div>
         </div></a>
-        <a href="http://www.sarahjikim.com/blog/20131216.html">
+        <a href="blog/20131216.html">
         <div class="blogpost 201312 cs">
             <div class="posttitle">What I Now Know About Version Control (Part 1)</div>
             <div class="postdate">Monday, December 16, 2013</div>
@@ -164,7 +133,7 @@
                 thankful that he told me about version control when he did.
             </div>
         </div></a>
-        <a href="http://www.sarahjikim.com/blog/20131125.html">
+        <a href="blog/20131125.html">
         <div class="blogpost 201311 gov">
             <div class="posttitle">Edward Snowden Is A Whistleblower</div>
             <div class="postdate">Monday, November 25, 2013</div>

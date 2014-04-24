@@ -1,0 +1,20 @@
+.pic {
+    border: grey solid 1px;
+}
+#pic1 {
+    height: 406px;
+    border: none;
+}
+#pic2 {
+    height: 395px;
+}
+#pic3 {
+    height: 306;
+}
+#pic4 {
+    height: 432px;
+    border: none;
+}
+#pic5 {
+    height: 226px;
+}
