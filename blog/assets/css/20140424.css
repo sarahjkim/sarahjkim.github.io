@@ -1,10 +1,13 @@
 .pic {
     border: 1px solid #DDD;
 }
-#pic0 {
+#pic0a {
     height: 415px;
     border-radius: 5px;
     overflow: hidden;
+}
+#pic0b {
+    height: 369px;
 }
 #pic1 {
     height: 305px;
@@ -18,25 +21,34 @@
 #pic4 {
     height: 376px;
 }
-#pic5 {
+#pic5a {
     height: 476px;
     border-radius: 5px;
     overflow: hidden;
+}
+#pic5b {
+    height: 369px;
 }
 #pic6 {
     height: 406px;
     border-radius: 5px;
     overflow: hidden;
 }
-#pic7 {
+#pic7a {
     height: 394px;
     border-radius: 5px;
     overflow: hidden;
 }
-#pic8 {
+#pic7b {
+    height: 368.5px;
+}
+#pic8a {
     height: 477px;
     border-radius: 5px;
     overflow: hidden;
+}
+#pic8b {
+    height: 368px;
 }
 #pic9 {
     height: 317.5px;
