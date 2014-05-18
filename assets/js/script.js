@@ -1,19 +1,5 @@
 $(document).ready(function(){
 
-    /** These are the sidebar animations. */
-    
-    $('#sidebar').hover(function() {
-        $(this).animate({'left': '0px'}, 400);
-    }, function() {
-        $(this).animate({'left': '-140px'}, 400);
-    });
-    
-    $('.sidebar-item').hover(function() {
-        $(this).css({'color': 'white'});
-    }, function() {
-        $(this).css({'color': '#CCC'});
-    });
-    
     /** These are the animations on the Index page. */
     
     $('.button').hover(function() {

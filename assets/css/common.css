@@ -25,6 +25,11 @@ img {
     z-index: 10;
     background: #444;
     padding: 20px;
+    transition: left 0.5s ease;
+    -webkit-transition: left 0.5s ease;
+}
+#sidebar:hover {
+    left: 0px;
 }
 #sidebar-content {
     height: 100%;
@@ -43,6 +48,11 @@ img {
     color: #CCC;
     font-weight: 300;
     line-height: 25px;
+    transition: color 0.5s ease;
+    -webkit-transition: left 0.5s ease;
+}
+.sidebar-item:hover {
+    color: white;
 }
 #more {
     height: 25px;
