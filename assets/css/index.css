@@ -1,16 +1,41 @@
-#pictureofme {
-    width: 600px;
-    position: fixed;
-    z-index: -10;
+@media (min-width: 1070px) {
+    #pictureofmelong {
+        width: 600px;
+        position: fixed;
+        z-index: -10;
+    }
+    #pictureofmelong > img {
+        height: 100%;
+    }
+    #aboutme {
+        position: fixed;
+        left: 55%;
+        top: 13%;
+        margin-right: 100px;
+    }
+    #pictureofmephone {
+        display: none;
+    }
 }
-#pictureofme > img {
-    height: 100%;
-}
-#content {
-    position: fixed;
-    left: 55%;
-    top: 13%;
-    margin-right: 100px;
+@media (max-width: 1070px) {
+    #content {
+        padding-top: 40px;
+    }
+    #pictureofmelong {
+        display: none;
+    }
+    #pictureofmephone {
+        width: 70%;
+        border: 10px solid white;
+        margin: 0 13.5% 0 16.5%;
+    }
+    #pictureofmephone > img {
+        width: 100%;
+    }
+    #aboutme {
+        width: 70%;
+        margin: 20px 13.5% 50px 16.5%;
+    }
 }
 #name {
     font-size: 50px;
