@@ -1,13 +1,5 @@
 $(document).ready(function(){
 
-    /** These are the animations on the Index page. */
-    
-    $('.button').hover(function() {
-        $(this).css({'background': '#DDD'});
-    }, function() {
-        $(this).css({'background': '#D0D0D0'});
-    });
-
     /** These are the animations on the Projects page. */
     $('.categorytab').click(function() {
         $('.categorydescript').hide();
@@ -19,6 +11,9 @@ $(document).ready(function(){
         } else if (category == 'Personal') {
             $('.project').hide();
             $('.personalproj').show();
+        } else if (category == 'Work') {
+            $('.project').hide();
+            $('.workproj').show();
         } else if (category == 'CS 61B') {
             $('.project').hide();
             $('.cs61b').show();

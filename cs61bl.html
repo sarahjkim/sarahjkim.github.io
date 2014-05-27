@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>CS 61BL | Sarah Kim</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/cs61bl.css"/>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+    <script src="assets/js/jquery-1.9.1.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-46063243-1', 'sarahjikim.com');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <div id="sidebar">
+        <div id="sidebar-content">
+            <div class="sidebar-name">Sarah Jiyun Kim</div>
+            <div class="sidebar-category">Pages</div>
+            <a href="index.html"><div class="sidebar-item">About</div></a>
+            <a href="work.html"><div class="sidebar-item">Work</div></a>
+            <a href="projects.html"><div class="sidebar-item">Projects</div></a>
+            <a href="organizations.html"><div class="sidebar-item">Organizations</div></a>
+            <a href="blog.html"><div class="sidebar-item">Blog</div></a>
+            <div class="sidebar-category">Contact</div>
+            <a href="assets/resume.pdf"><div class="sidebar-item">Resume</div></a>
+            <a href="https://github.com/sarahjkim"><div class="sidebar-item">GitHub</div></a>
+            <a href="http://www.linkedin.com/in/sarahjkim"><div class="sidebar-item">LinkedIn</div></a>
+            <a href="mailto:sarahjkim@berkeley.edu"><div class="sidebar-item">Email</div></a>
+            <div id="more">
+                <!-- Read More designed by P.J. Onori from The Noun Project --!>
+                <img src="assets/images/more.svg">
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div id="pagetitle">CS 61BL Resources</div>
+            <div class="resource">
+                <div class="resourcetitle">Section Information</div>
+                <div class="text condensedtext">
+                    Start/End Dates: June 23 - August 15, 2014</br>
+                    Time: TBA</br>Location: TBA</br>Office Hours: TBA</br>
+                    Email: <a href="mailto:sarahjkim@berkeley.edu">sarahjkim@berkeley.edu</a>
+                </div>
+                <div class="text condensedtext">
+                    <a href="https://docs.google.com/forms/d/16G37_NyvCYDNdPGfaSwL_hJm-OsFNX3I8RMfhMJUyS4/viewform">Send Me Feedback!</a>
+                </div>
+            </div>
+            <div class="resource">
+                <div class="resourcetitle">Notes from the Reading</div>
+                <div class="text">
+                    I will be updating this section with notes from the textbook as the semester
+                    progresses. Check back later!
+                </div>
+            </div>
+            <div class="resource">
+                <div class="resourcetitle">Q: Is Java pass-by-value or pass-by-reference?</div>
+                <div class="text">
+                    Java is pass-by-value, and understanding this will help in making sense of
+                    why some functions modify their parameters while others do not. I suggest
+                    reading the first two answers on <a href="http://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value">Stack Overflow</a>.
+                    Also, this comment is particularly helpful:
+                </div>
+                <div class="text quote">
+                    "Think about it this way. Someone has the address of Ann Arbor, MI on a
+                    slip of paper called <code>annArborLocation</code>. You copy it down on a piece of
+                    paper called <code>myDestination</code>. You can drive to <code>myDestination</code> and plant
+                    a tree. You may have changed something about the city at that location, but
+                    it doesn't change the LAT/LON that was written on either paper. You can change
+                    the LAT/LON on <code>myDestination</code> but it doesn't change <code>annArborLocation</code>."
+                    (<a href="http://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value#comment592104_73021">source</a>)
+                </div>
+                <div class="text">
+                    If you come from a Python background, check out this <a href="http://robertheaton.com/2014/02/09/pythons-pass-by-object-reference-as-explained-by-philip-k-dick/">post</a>
+                    for information on how Python is pass-by-object-reference. Hopefully, this
+                    will help illustrate the differences/similarities between how the two
+                    languages work.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
