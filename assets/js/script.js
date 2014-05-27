@@ -8,6 +8,26 @@ $(document).ready(function(){
         $(this).css({'background': '#D0D0D0'});
     });
 
+    /** These are the animations on the Projects page. */
+    $('.categorytab').click(function() {
+        $('.categorydescript').hide();
+        $('.categorytab').removeClass('selectedtab');
+        $(this).addClass('selectedtab');
+        var category = $(this).text();
+        if (category == 'All') {
+            $('.project').show();
+        } else if (category == 'Personal') {
+            $('.project').hide();
+            $('.personalproj').show();
+        } else if (category == 'CS 61B') {
+            $('.project').hide();
+            $('.cs61b').show();
+        } else {
+            $('.project').hide();
+            $('.cs61c').show();
+        }
+    });
+
     /** These are the animations on the Blog page. */
 
     $('.barpoint').hover(function() {

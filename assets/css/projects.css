@@ -1,3 +1,6 @@
+.projpic > img {
+    width: 100%;
+}
 @media (min-width: 1140px) {
     #content {
         width: 1000px;
@@ -20,6 +23,36 @@
     font-weight: 700;
     line-height: 55px;
 }
+#categories {
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+}
+.categorytab {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 80px;
+    border-top: 1px solid black;
+    text-align: center;
+    margin-left: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: -1px;
+    font-size: 14px;
+    background-color: #DDD;
+}
+.selectedtab {
+    border-bottom: 1px solid #F6F6F6;
+    background-color: #F6F6F6;
+}
+.categorydescript {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 200;
+    display: none;
+}
 @media (min-width: 1140px) {
     .project {
         padding-top: 30px;
@@ -27,7 +60,7 @@
 }
 @media (max-width: 1140px) {
     .project {
-        padding-top: 50px;
+        padding-top: 60px;
     }
 }
 @media (min-width: 1140px) {
@@ -107,44 +140,4 @@
     text-align: center;
     background: #D0D0D0;
     border-radius: 2px;
-}
-@media (min-width: 1140px) {
-    #csuapic {
-        height: 335px;
-    }
-    #graphpic {
-        height: 415px;
-    }
-    #jumpingpic {
-        height: 416px;
-    }
-    #textpic {
-        height: 401px;
-    }
-    #enigmapic {
-        height: 393px;
-    }
-    #personalpic {
-        height: 335px;
-    }
-}
-@media (max-width: 1140px) {
-    #csuapic {
-        height: 292.5px;
-    }
-    #graphpic {
-        height: 362px;
-    }
-    #jumpingpic {
-        height: 363px;
-    }
-    #textpic {
-        height: 350px;
-    }
-    #enigmapic {
-        height: 343px;
-    }
-    #personalpic {
-        height: 292.5px;
-    }
 }

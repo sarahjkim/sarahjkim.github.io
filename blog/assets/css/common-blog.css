@@ -41,6 +41,9 @@
     margin-top: 10px;
     border-radius: 4px;
 }
+.pic > img {
+    width: 100%;
+}
 .caption {
     text-align: center;
     font-size: 13px;

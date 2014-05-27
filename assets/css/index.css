@@ -3,6 +3,9 @@
     position: fixed;
     z-index: -10;
 }
+#pictureofme > img {
+    height: 100%;
+}
 #content {
     position: fixed;
     left: 55%;

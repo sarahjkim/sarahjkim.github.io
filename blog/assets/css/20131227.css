@@ -1,35 +1,15 @@
 .pic {
     border-radius: 4px;
     border: grey solid 1px;
+    overflow: hidden;
 }
 #pic1 {
-    height: 350px;
-    margin: 10px 77px 0px;
+    margin: 10px 60px 0px;
     border: none;
 }
 #pic2 {
-    height: 450px;
-    margin: 10px 112px 0px;
-}
-#pic3 {
-    height: 435;
-}
-#pic4 {
-    height: 413px;
-}
-#pic5 {
-    height: 340px;
+    margin: 10px 110px 0px;
 }
 #pic6 {
-    height: 400px;
-    margin: 10px 80px 0px;
-}
-#pic7 {
-    height: 201px;
-}
-#pic8 {
-    height: 408px;
-}
-#pic9 {
-    height: 220px;
+    margin: 10px 50px 0px;
 }

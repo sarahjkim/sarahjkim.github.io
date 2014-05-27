@@ -39,8 +39,26 @@
     </div>
     <div id="content">
         <div id="pagetitle">Projects</div>
-        <div class="project">
-            <div id="csuapic" class="projpic">
+        <div id="categories">
+            <div class="categorytab selectedtab">All</div>
+            <div class="categorytab">Personal</div>
+            <div class="categorytab">CS 61B</div>
+            <div class="categorytab">CS 61C</div>
+        </div>
+        <div class="categorydescript personalproj">
+            These are personal projects I have worked on in my own time.
+        </div>
+        <div class="categorydescript cs61b">
+            These are projects related to CS 61B (Data Structures). All of these project
+            are written in Java. Please email me for access to my code.
+        </div>
+        <div class="categorydescript cs61c">
+            These are projects related to CS 61C (Computer Architecture & Machine Structures).
+            These projects are in C, MIPS, Java, CUDA, and Logism. Please email me for access
+            to my code.
+        </div>
+        <div class="project personalproj">
+            <div class="projpic">
                 <img src="assets/projects/csua.png">
             </div>
             <div class="projinfo">
@@ -59,31 +77,31 @@
                         <a href="http://csua.berkeley.edu/">Website</a>
                     </div>
                     <div class="button">
-                        <a href="https://github.com/sarahjkim/csua-website">GitHub</a>
+                        <a href="https://github.com/CSUA/CSUA-Website">GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="project">
-            <div id="graphpic" class="projpic">
+        <div class="project cs61b">
+            <div class="projpic">
                 <img src="assets/projects/graph.png">
             </div>
             <div class="projinfo">
                 <div class="projtitle">Graph API & Clients</div>
                 <div class="projtime">December 2013</div>
                 <div class="projdescript">
-                    I built the graph data structure and two clients in CS 61B with Prof.
+                    I built a graph data structure and two clients in CS 61B with Prof.
                     Hilfinger. One client modeled a make file system and used graphs to
                     build prerequisites and process targets. The other
                     client (pictured left) took in map data of locations and roads and output
                     directions for the shortest path between two points.<br>
                     This project was built from scratch in Java. I learned about API
                     implementation, make file systems, graph traversals, and shortest path
-                    algorithms (e.g. A* search). Please email me for access to my code.
+                    algorithms (e.g. A* search).
                 </div>
                 <div class="buttonbar">
                     <div class="button">
-                        <a href="assets/projects/graph.pdf">Specs</a>
+                        <a href="assets/projects/graph.pdf">Spec</a>
                     </div>
                     <div class="button">
                         <a href="https://bitbucket.org/sarahjkim/cs61b-proj3">Code</a>
@@ -91,8 +109,58 @@
                 </div>
             </div>
         </div>
-        <div class="project">
-            <div id="jumpingpic" class="projpic">
+        <div class="project cs61c">
+            <div class="projpic">
+                <img src="assets/projects/optimization_cpu.png">
+            </div>
+            <div class="projinfo">
+                <div class="projtitle">CPU Optimization</div>
+                <div class="projtime">April 2014</div>
+                <div class="projdescript">
+                    I optimized a previously coded Digit Recognition project for CPU performance
+                    on Intel Xeon quad-core multi-processors in CS 61C with Prof. Garcia. I
+                    used OpenMP, SSE Instructions, and loop unrolling to optimize my C code
+                    in addition to rewriting and creating special indexing for large
+                    cases. It went from 1.5 Gflops/s to 17 Gflops/s for small
+                    and 20 Gflops/s for large cases.
+                </div>
+                <div class="buttonbar">
+                    <div class="button">
+                        <a href="assets/projects/optimization_cpu.pdf">Spec</a>
+                    </div>
+                    <div class="button">
+                        <a href="https://bitbucket.org/sarahjkim/cs61c-proj3-1">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project cs61c">
+            <div class="projpic">
+                <img src="assets/projects/optimization_gpu.png">
+            </div>
+            <div class="projinfo">
+                <div class="projtitle">GPU Optimization</div>
+                <div class="projtime">April 2014</div>
+                <div class="projdescript">
+                    I optimized a previously coded Digit Recognition project for GPU performance
+                    on an NVIDIA Tesla graphics card in CS 61C with Prof. Garcia.
+                    I translated my code from C to CUDA and rewrote the code to use array indexing
+                    rather than copying data. My code used two kernels for calculating
+                    distances and reducing sums. I also used loop unrolling to boost my code
+                    from 1 Gflop/s to 5 Gflops/s.
+                </div>
+                <div class="buttonbar">
+                    <div class="button">
+                        <a href="assets/projects/optimization_gpu.pdf">Spec</a>
+                    </div>
+                    <div class="button">
+                        <a href="https://bitbucket.org/sarahjkim/cs61c-proj3-2">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project cs61b">
+            <div class="projpic">
                 <img src="assets/projects/jumpingcubes.png">
             </div>
             <div class="projinfo">
@@ -105,12 +173,11 @@
                     This project was built from scratch in Java. Because both players could
                     be manual or AI, I learned about user input parsing and sanitation and
                     AI game trees and heuristics. My AI actually now consistently beats me
-                    and can pursue forced wins up to four moves in advance. Please email me
-                    for access to my code.
+                    and can pursue forced wins up to four moves in advance.
                 </div>
                 <div class="buttonbar">
                     <div class="button">
-                        <a href="assets/projects/jumpingcubes.pdf">Specs</a>
+                        <a href="assets/projects/jumpingcubes.pdf">Spec</a>
                     </div>
                     <div class="button">
                         <a href="https://bitbucket.org/sarahjkim/cs61b-proj2">Code</a>
@@ -118,8 +185,90 @@
                 </div>
             </div>
         </div>
-        <div class="project">
-            <div id="textpic" class="projpic">
+        <div class="project cs61c">
+            <div class="projpic">
+                <img src="assets/projects/ida.png">
+            </div>
+            <div class="projinfo">
+                <div class="projtitle">Processor Design</div>
+                <div class="projtime">May 2014</div>
+                <div class="projdescript">
+                    My partner and I designed a two-stage pipelined processer for the Ida
+                    assembly language for CS 61C with Prof. Garcia. The Ida assembly language
+                    was based off of MIPS, and our processor was able to execute 16 different
+                    instructions. We implemented instruction fetches, ALU computations,
+                    memory read/writes, register file read/writes, jumps, and the
+                    comparison register unique to Ida in Logism.
+                </div>
+                <div class="buttonbar">
+                    <div class="button">
+                        <a href="assets/projects/ida.pdf">Spec</a>
+                    </div>
+                    <div class="button">
+                        <a href="assets/projects/idamanual.pdf">Ida</a>
+                    </div>
+                    <div class="button">
+                        <a href="https://bitbucket.org/sarahjkim/cs61c-proj4">Design</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project cs61c">
+            <div class="projpic">
+                <img src="assets/projects/cmips1.png">
+            </div>
+            <div class="projinfo">
+                <div class="projtitle">Digit Recognition</div>
+                <div class="projtime">February 2014</div>
+                <div class="projdescript">
+                    My partner and I implemented a simple version of digit recognition
+                    in CS 61C with Prof. Garcia. The digit recognition works by
+                    comparing the "digit distances" between a set of template images
+                    and a test image. We flipped, rotated, translated the template images
+                    for comparison with the test images and predicted the digit value of
+                    each test image.</br>
+                    The code was written in C. I later changed and optimized this project
+                    for running on both the CPU and the GPU.
+                </div>
+                <div class="buttonbar">
+                    <div class="button">
+                        <a href="assets/projects/cmips.pdf">Spec</a>
+                    </div>
+                    <div class="button">
+                        <a href="https://bitbucket.org/sarahjkim/cs61c-proj1">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project cs61c">
+            <div class="projpic">
+                <img src="assets/projects/cmips2.png">
+            </div>
+            <div class="projinfo">
+                <div class="projtitle">Sparse-to-Dense Matrix</div>
+                <div class="projtime">February 2014</div>
+                <div class="projdescript">
+                    My partner and I implemented two concepts in MIPS for CS 61C with
+                    Prof. Garcia. Firstly, we computed the stopping time for hailstone
+                    sequences based on the Collatz conjecture. Secondly, we converted
+                    between dense and sparse matrices to save memory space while allowing
+                    for correct access to users.</br>
+                    We used the MARS IDE to assemble and interpret our MIPS. I learned
+                    how to code in assembly language and how data storage works in low-level
+                    languages.
+                </div>
+                <div class="buttonbar">
+                    <div class="button">
+                        <a href="assets/projects/cmips.pdf">Spec</a>
+                    </div>
+                    <div class="button">
+                        <a href="https://bitbucket.org/sarahjkim/cs61c-proj1-2">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project cs61b">
+            <div class="projpic">
                 <img src="assets/projects/text.png">
             </div>
             <div class="projinfo">
@@ -132,11 +281,11 @@
                     endnotes.<br>
                     This project was built from scratch in Java. I learned about scanning
                     user input, parsing buffered tokens, controlling/directing token flow,
-                    and outputting formatted text. Please email for access to my code.
+                    and outputting formatted text.
                 </div>
                 <div class="buttonbar">
                     <div class="button">
-                        <a href="assets/projects/text.pdf">Specs</a>
+                        <a href="assets/projects/text.pdf">Spec</a>
                     </div>
                     <div class="button">
                         <a href="https://bitbucket.org/sarahjkim/cs61b-proj1">Code</a>
@@ -144,8 +293,8 @@
                 </div>
             </div>
         </div>
-        <div class="project">
-            <div id="enigmapic" class="projpic">
+        <div class="project cs61b">
+            <div class="projpic">
                 <img src="assets/projects/enigma.png">
             </div>
             <div class="projinfo">
@@ -157,12 +306,11 @@
                     multiple changing rotors, used in WWII by Nazi Germany. Given rotor
                     settings and text, the machine can encode or decode message.<br>
                     This project was built from scratch in Java. I learned about parsing
-                    input, variable permutation, and cryptography. Please
-                    email for access to my code.
+                    inputs, variable permutation, and cryptography.
                 </div>
                 <div class="buttonbar">
                     <div class="button">
-                        <a href="assets/projects/enigma.pdf">Specs</a>
+                        <a href="assets/projects/enigma.pdf">Spec</a>
                     </div>
                     <div class="button">
                         <a href="https://bitbucket.org/sarahjkim/cs61b-proj0">Code</a>
@@ -170,8 +318,58 @@
                 </div>
             </div>
         </div>
-        <div class="project">
-            <div id="personalpic" class="projpic">
+        <div class="project cs61c">
+            <div class="projpic">
+                <img src="assets/projects/mapreduce.png">
+            </div>
+            <div class="projinfo">
+                <div class="projtitle">MapReduce</div>
+                <div class="projtime">March 2014</div>
+                <div class="projdescript">
+                    My partner and I built a program to solve Connect 4 in CS 61C with
+                    Prof. Garcia. We output the win-loss game states from solving the
+                    whole game by applying minimax game tree traversal using the Hadoop
+                    MapReduce framework in Java. We then ran our code on clusters of 6, 9,
+                    and 12 workers on the Amazon EC2 servers for large Connect 4 boards.
+                </div>
+                <div class="buttonbar">
+                    <div class="button">
+                        <a href="assets/projects/mapreduce.pdf">Spec</a>
+                    </div>
+                    <div class="button">
+                        <a href="https://bitbucket.org/sarahjkim/cs61c-proj2-1">Code</a>
+                    </div>
+                    <div class="button">
+                        <a href="https://bitbucket.org/sarahjkim/cs61c-proj2-2">EC2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project personalproj">
+            <div class="projpic">
+                <img src="assets/projects/upenu.png">
+            </div>
+            <div class="projinfo">
+                <div class="projtitle">UPE Nu Website</div>
+                <div class="projtime">March 2014 - May 2014</div>
+                <div class="projdescript">
+                    As a member of the IT Committee for UPE, I helped build part of the
+                    website's Django backend. I worked on creating Officer and UserProfile
+                    models and dynamically generating the office hours, tutoring, and
+                    officers pages by querying the database.
+                </div>
+                <div class="buttonbar">
+                    <div class="button">
+                        <a href="http://upe.berkeley.edu/">Website</a>
+                    </div>
+                    <div class="button">
+                        <a href="https://github.com/upenu/website">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project personalproj">
+            <div class="projpic">
                 <img src="assets/projects/personal.png">
             </div>
             <div class="projinfo">

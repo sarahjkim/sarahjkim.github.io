@@ -1,27 +1,23 @@
 .pic {
     border-radius: 4px;
-}
-#pic1 {
-    height: 387px;
-}
-#pic2 {
-    height: 220.5px;
-    border: grey solid 1px;
+    overflow: hidden;
 }
 .sidebyside {
     width: 880px;
     margin-left: -100px;
 }
-#pic3 {
+.leftpic {
     height: 304px;
     display: inline-block;
 }
-#pic4 {
+.rightpic {
     height: 304px;
     display: inline-block;
+}
+#pic2 {
+    border: grey solid 1px;
 }
 #pic5 {
-    height: 397.5px;
     border: grey solid 1px;
     padding: 10px 25px 5px;
     background-color: white;

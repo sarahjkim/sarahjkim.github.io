@@ -10,7 +10,7 @@ a {
     cursor: pointer;
     color: black;
 }
-img {
+#more > img {
     height: 100%;
 }
 .clear {
