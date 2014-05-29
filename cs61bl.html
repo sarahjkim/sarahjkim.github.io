@@ -64,7 +64,7 @@
             <div class="resource">
                 <div class="resourcetitle">Q: Is Java pass-by-value or pass-by-reference?</div>
                 <div class="text">
-                    Java is pass-by-value, and understanding this will help in making sense of
+                    Java is <u>pass-by-value</u>, and understanding this will help in making sense of
                     why some functions modify their parameters while others do not. I suggest
                     reading the first two answers on <a href="http://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value">Stack Overflow</a>.
                     Also, this comment is particularly helpful:
@@ -83,6 +83,36 @@
                     for information on how Python is pass-by-object-reference. Hopefully, this
                     will help illustrate the differences/similarities between how the two
                     languages work.
+                </div>
+            </div>
+            <div class="resource">
+                <div class="resourcetitle">Q: Why can't I access a variable outside of the loop it was created in?</div>
+                <div class="text">
+                    All variables created inside a loop will be lost once the program exits
+                    the loop. This phenomenon is best explained by <u>variable scope</u> in Java.
+                    A local variable has a scope that limits it within the class, method,
+                    and loop (if applicable) it was declared in. The local scope of a variable
+                    is limited by the smallest scope that applies to it.
+                </div>
+                <div class="text">
+                    Scope is important because <i>variables can only be used within their
+                    scope</i>. Let's work through some examples. Firstly, if a variable is
+                    defined within a class but outside of any methods or loops, it can be
+                    accessed throughout the class.
+                </div>
+                <div class="text">
+                    Secondly, if a variable is defined within a class method but outside of
+                    any loops, it exists throughout the whole method (after it was initialized),
+                    but other methods do not have direct access to the variable. (The variable
+                    being passed into another method as a parameter does not count because
+                    Java is pass-by-value. If you have questions about this comment, reference
+                    the question above.)
+                </div>
+                <div class="text">
+                    Finally, we get to the loop example. If a variable has been created
+                    within a loop, its most limiting scope is the loop. Thus, it can only
+                    be used within the loop. I thought <a href="http://www.java-made-easy.com/variable-scope.html">this page</a>
+                    was a helpful read on variable scope.
                 </div>
             </div>
         </div>
