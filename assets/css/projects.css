@@ -147,3 +147,6 @@
 .button:hover {
     background: #DDD;
 }
+.pic2 {
+    display: none;
+}

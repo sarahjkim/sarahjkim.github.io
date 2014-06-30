@@ -22,6 +22,14 @@ $(document).ready(function(){
             $('.cs61c').show();
         }
     });
+    
+    $('.projpic').hover(function() {
+        $(this).find('.pic1').hide();
+        $(this).find('.pic2').show();
+    }, function() {
+        $(this).find('.pic2').hide();
+        $(this).find('.pic1').show();
+    });
 
     /** These are the animations on the Blog page. */
 
