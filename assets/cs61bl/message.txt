@@ -1,0 +1,12 @@
+When you encode me, Sarah should be able to decode me later.
+
+Ice cream flavors:
+Chocolate
+Green Tea
+Strawberry
+Raspberry
+Orange Sherbert
+Vanilla
+Neopolitan
+Cookie Dough
+Rocky Road
