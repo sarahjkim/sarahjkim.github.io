@@ -23,7 +23,7 @@ a {
     left: -140px;
     overflow: hidden;
     z-index: 10;
-    background: #444;
+    background: rgb(0, 178, 238);
     padding: 20px;
     transition: left 0.5s ease;
     -webkit-transition: left 0.5s ease;
@@ -39,14 +39,17 @@ a {
     font-size: 22px;
     color: white;
     line-height: 24px;
+    font-weight: 600;
 }
 .sidebar-category {
     margin-top: 20px;
     line-height: 25px;
-    color: #222;
+    color: #DDD;
+    font-weight: 600;
+    font-size: 14px;
 }
 .sidebar-item {
-    color: #CCC;
+    color: black;
     font-weight: 300;
     line-height: 25px;
     transition: color 0.5s ease;
