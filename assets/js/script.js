@@ -46,39 +46,17 @@ $(document).ready(function(){
     });
 
     $('.barpoint').click(function(event) {
+        $('.barpoint').css('color', '#999');
+        $('.all').css('color', '#00B2EE');
         $(this).parent().children().css('color', '#999');
         $(this).css('color', '#00B2EE');
         var id = $(this).attr('id');
-        var title = " " + $(this).html() + '.';
-        $('.blogpost').hide();
-        if (id == 'alltime' | id=='all') {
+        var category = "." + id;
+        if ($(this).hasClass('all')) {
             $('.blogpost').show();
-            $('#nothere').hide();
-        } else if (id == '201311') {
-            $('#nothere').hide();
-            $('.201311').show();
-        } else if (id == '201312') {
-            $('#nothere').hide();
-            $('.201312').show();
-        } else if (id == '201402') {
-            $('#nothere').hide();
-            $('.201402').show();
-        } else if (id == '201404') {
-            $('#nothere').hide();
-            $('.201404').show();
-        } else if (id == 'christianity') {
-            $('.christianity').show();
-            $('#nothere').append(title);
-            $('#nothere').show();
-        } else if (id == 'cs') {
-            $('#nothere').hide();
-            $('.cs').show();
-        } else if (id == 'gov') {
-            $('#nothere').hide();
-            $('.gov').show();
-        } else if (id == 'personal') {
-            $('#nothere').hide();
-            $('.personal').show();
+        } else {
+            $('.blogpost').hide();
+            $(category).show();
         }
     });
 
