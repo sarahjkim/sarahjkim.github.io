@@ -1,0 +1,9 @@
+.journal {
+    background-color: #DDD;
+    padding: 10px 20px 13px;
+}
+.journal-entry {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+}
