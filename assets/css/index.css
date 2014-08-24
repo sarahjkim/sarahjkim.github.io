@@ -57,3 +57,6 @@
     line-height: 25px;
     margin-top: 10px;
 }
+#sidebar {
+    border-right: none;
+}
