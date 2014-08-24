@@ -1,6 +1,8 @@
 .journal {
-    background-color: #DDD;
+    background-color: white;
     padding: 10px 20px 13px;
+    border: 1px solid #61B329;
+    border-radius: 2px;
 }
 .journal-entry {
     font-size: 14px;
