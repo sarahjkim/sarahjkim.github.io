@@ -21,6 +21,9 @@
         height: 100%;
         margin-left: 40%;
     }
+    #sidebar {
+        border-right: none;
+    }
 }
 @media (max-width: 875px) {
     #sidebar {
@@ -56,7 +59,4 @@
     font-weight: 300;
     line-height: 25px;
     margin-top: 10px;
-}
-#sidebar {
-    border-right: none;
 }
