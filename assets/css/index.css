@@ -1,40 +1,57 @@
-@media (min-width: 1070px) {
-    #pictureofmelong {
+#sidebar {
+    background: white;
+}
+.sidebar-name {
+    color: black;
+}
+.sidebar-category {
+    color: #555;
+}
+.sidebar-item {
+    color: #777;
+}
+.sidebar-item:hover {
+    color: #61B329;
+}
+@media (min-width: 875px) {
+    #pictureofme {
         width: 600px;
         position: fixed;
         z-index: -10;
+        padding-left: 15%;
+        margin-left: -470px;
     }
-    #pictureofmelong > img {
+    #pictureofme > img {
         height: 100%;
     }
     #aboutme {
-        position: fixed;
-        left: 55%;
-        top: 13%;
-        margin-right: 100px;
+        margin: 0 auto;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 23%;
+        max-width: 600px;
     }
-    #pictureofmephone {
-        display: none;
+    #whiteside {
+        background-color: white;
+        height: 100%;
+        margin-left: 40%;
     }
 }
-@media (max-width: 1070px) {
-    #content {
-        padding-top: 40px;
+@media (max-width: 875px) {
+    #sidebar {
+        border-right: 1px solid black;
     }
-    #pictureofmelong {
-        display: none;
+    #pictureofme {
+        height: 30%;
+        overflow: hidden;
     }
-    #pictureofmephone {
-        width: 70%;
-        border: 10px solid white;
-        margin: 0 13.5% 0 16.5%;
-    }
-    #pictureofmephone > img {
+    #pictureofme > img {
         width: 100%;
+        margin-top: -140px;
     }
     #aboutme {
-        width: 70%;
-        margin: 20px 13.5% 50px 16.5%;
+        margin: 0 auto;
+        padding: 20px 60px 30px 100px;
     }
 }
 #name {
@@ -54,26 +71,4 @@
     font-weight: 300;
     line-height: 25px;
     margin-top: 10px;
-}
-#buttonbar {
-    margin-top: 20px;
-    width: 440px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.button {
-    display: inline-block;
-    margin: 0px 5px;
-    font-size: 14px;
-    padding: 9px 5px;
-    width: 80px;
-    text-align: center;
-    background: #D0D0D0;
-    border-radius: 2px;
-    transition: background 0.2s ease;
-    -webkit-transition: background 0.2s ease;
-    -moz-transition: background 0.2s ease;
-}
-.button:hover {
-    background: #DDD;
 }
