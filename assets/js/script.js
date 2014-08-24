@@ -47,9 +47,9 @@ $(document).ready(function(){
 
     $('.barpoint').click(function(event) {
         $('.barpoint').css('color', '#999');
-        $('.all').css('color', '#00B2EE');
+        $('.all').css('color', '#61B329');
         $(this).parent().children().css('color', '#999');
-        $(this).css('color', '#00B2EE');
+        $(this).css('color', '#61B329');
         var id = $(this).attr('id');
         var category = "." + id;
         if ($(this).hasClass('all')) {

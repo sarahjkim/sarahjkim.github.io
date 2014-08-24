@@ -1,18 +1,3 @@
-#sidebar {
-    background: white;
-}
-.sidebar-name {
-    color: black;
-}
-.sidebar-category {
-    color: #555;
-}
-.sidebar-item {
-    color: #777;
-}
-.sidebar-item:hover {
-    color: #61B329;
-}
 @media (min-width: 875px) {
     #pictureofme {
         width: 600px;

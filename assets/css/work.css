@@ -60,12 +60,9 @@
     border-radius: 10px;
 }
 .jobdescript {
-    border-top: 1px solid #00B2EE;
+    border-top: 1px solid #61B329;
     padding-top: 10px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 300;
-}
-.jobdescript a {
-    color: #00B2EE;
 }

@@ -8,7 +8,7 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: black;
+    color: #61B329;
 }
 #more > img {
     height: 100%;
@@ -23,7 +23,8 @@ a {
     left: -140px;
     overflow: hidden;
     z-index: 10;
-    background: rgb(0, 178, 238);
+    background: white;
+    border-right: 1px solid black;
     padding: 20px;
     transition: left 0.5s ease;
     -webkit-transition: left 0.5s ease;
@@ -37,19 +38,19 @@ a {
 }
 .sidebar-name {
     font-size: 22px;
-    color: white;
+    color: black;
     line-height: 24px;
     font-weight: 600;
 }
 .sidebar-category {
     margin-top: 20px;
     line-height: 25px;
-    color: #DDD;
+    color: #555;
     font-weight: 600;
     font-size: 14px;
 }
 .sidebar-item {
-    color: black;
+    color: #777;
     font-weight: 300;
     line-height: 25px;
     transition: color 0.5s ease;
@@ -57,7 +58,7 @@ a {
     -moz-transition: left 0.5s ease;
 }
 .sidebar-item:hover {
-    color: white;
+    color: #61B329;
 }
 #more {
     height: 25px;

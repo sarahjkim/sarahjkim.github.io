@@ -21,7 +21,7 @@
     color: #999;
 }
 .all {
-    color: #00B2EE;
+    color: #61B329;
 }
 #content {
     margin-left: auto;
@@ -39,6 +39,7 @@
     padding: 25px;
     border-radius: 2px;
     margin-bottom: 20px;
+    color: black;
 }
 .posttitle {
     font-size: 22px;
@@ -61,7 +62,7 @@
     float: right;
 }
 .postsnippet {
-    border-top: 1px solid #00B2EE;
+    border-top: 1px solid #61B329;
     padding-top: 10px;
     font-size: 14px;
     line-height: 24px;
