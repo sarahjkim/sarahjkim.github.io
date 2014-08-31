@@ -5,6 +5,7 @@
         z-index: -10;
         padding-left: 15%;
         margin-left: -470px;
+        height: 100%;
     }
     #pictureofme > img {
         height: 100%;
