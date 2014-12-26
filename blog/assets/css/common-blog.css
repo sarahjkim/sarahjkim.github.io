@@ -33,6 +33,12 @@ a {
     line-height: 28px;
     margin-top: 15px;
 }
+.text a {
+    text-decoration: underline;
+}
+.reference a {
+    text-decoration: underline;
+}
 #space {
     margin-top: 20px;
     border-bottom: 2px solid black;
