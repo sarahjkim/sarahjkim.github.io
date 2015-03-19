@@ -55,6 +55,39 @@
                 </div>
             </div>
             <div class="resource">
+                <div class="resourcetitle">Q: How do I use Java's <a href="http://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html"><code>Serializable</code></a> interface?</div>
+                <div class="text">
+                    Let's first answer the question of what the <code>Serializable</code> interface even allows
+                    you to do by considering a common use case for it. Let's say that we want to create some
+                    Java program that is able to maintain state across different distinct executions.
+                </div>
+                <div class="text">
+                    One way we could achieve this effect is by saving all our important instance variables in files
+                    that we read in/out of for each execution. This - while being completely doable - is, however,
+                    in most simple cases made unnecessary by a built-in Java functionality called <code>Serializable</code>.
+                    Any class that <code>implements</code> the <code>Serializable</code> interface can convert its
+                    state into some form of information that can be saved into an output file then read back in just
+                    as easily.
+                </div>
+                <div class="text">
+                    I think the best way to learn is by experimentation, so take a look at this example called
+                    <a href="assets/cs61b/Main.java"><code>Main.java</code></a>, which serializes a simple
+                    <code>Cat</code> class. Download it and try out the following commands.
+                </div>
+                <div class="text"><code>
+                    $ javac Main.java</br>
+                    $ java Main</br>
+                    $ java Main Joey</br>
+                    $ java Main</br>
+                    $ java Main Daniel
+                </code></div>
+                <div class="text">
+                    Perhaps at this point, you're wondering, "What in the world?! How was that possible?!" (If you're
+                    not, pretend you are at this point to humor me.) Here's where you should take a look at the code to
+                    see how simple it is to use <code>Serializable</code>!
+                </div>
+            </div>
+            <div class="resource">
                 <div class="resourcetitle">Q: Is Java pass-by-value or pass-by-reference?</div>
                 <div class="text">
                     Java is <u>pass-by-value</u>, and understanding this will help in making sense of
