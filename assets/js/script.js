@@ -2,24 +2,21 @@ $(document).ready(function(){
 
     /** These are the animations on the Projects page. */
     $('.categorytab').click(function() {
-        $('.categorydescript').hide();
         $('.categorytab').removeClass('selectedtab');
         $(this).addClass('selectedtab');
         var category = $(this).text();
-        if (category == 'All') {
-            $('.project').show();
+        if (category == 'Featured') {
+            $('.project').hide();
+            $('.featured').show();
         } else if (category == 'Personal') {
             $('.project').hide();
             $('.personalproj').show();
         } else if (category == 'Work') {
             $('.project').hide();
             $('.workproj').show();
-        } else if (category == 'CS 61B') {
-            $('.project').hide();
-            $('.cs61b').show();
         } else {
             $('.project').hide();
-            $('.cs61c').show();
+            $('.school').show();
         }
     });
     

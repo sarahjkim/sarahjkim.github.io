@@ -44,13 +44,6 @@
     border-bottom: 1px solid #F6F6F6;
     background-color: #F6F6F6;
 }
-.categorydescript {
-    margin-top: 10px;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 200;
-    display: none;
-}
 @media (min-width: 1140px) {
     .project {
         padding-top: 30px;
@@ -60,6 +53,12 @@
     .project {
         padding-top: 60px;
     }
+}
+.project {
+    display: none;
+}
+.featured {
+    display: block;
 }
 .projpic > img {
     width: 100%;
