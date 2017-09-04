@@ -19,7 +19,7 @@ $(document).ready(function(){
             $('.school').show();
         }
     });
-    
+
     $('.projpic').hover(function() {
         $(this).find('.pic1').hide();
         $(this).find('.pic2').show();
