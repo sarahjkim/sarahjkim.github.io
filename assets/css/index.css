@@ -1,14 +1,18 @@
 @media (min-width: 875px) {
     #pictureofme {
-        width: 600px;
-        position: fixed;
-        z-index: -10;
-        padding-left: 15%;
-        margin-left: -510px;
+        width: 40%;
         height: 100%;
+        background-size: auto 100%;
+        float: left;
     }
-    #pictureofme > img {
+    #whiteside {
+        background-color: white;
         height: 100%;
+        width: 60%;
+        float: right;
+    }
+    #sidebar {
+        border-right: none;
     }
     #aboutme {
         margin: 0 auto;
@@ -16,14 +20,6 @@
         padding-right: 60px;
         padding-top: 23%;
         max-width: 600px;
-    }
-    #whiteside {
-        background-color: white;
-        height: 100%;
-        margin-left: 40%;
-    }
-    #sidebar {
-        border-right: none;
     }
     #name {
         font-size: 50px;
@@ -35,12 +31,8 @@
         border-right: 1px solid black;
     }
     #pictureofme {
-        height: 40%;
-        overflow: hidden;
-    }
-    #pictureofme > img {
-        width: 100%;
-        margin-top: -140px;
+        background-size: 100% auto;
+        height: 400px;
     }
     #aboutme {
         margin: 0 auto;
@@ -51,17 +43,13 @@
         font-weight: 600;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     #sidebar {
         border-right: 1px solid black;
     }
     #pictureofme {
-        height: 25%;
-        overflow: hidden;
-    }
-    #pictureofme > img {
-        width: 100%;
-        margin-top: -100px;
+        background-size: 100% auto;
+        height: 200px;
     }
     #aboutme {
         margin: 0 auto;
@@ -71,6 +59,10 @@
         font-size: 45px;
         font-weight: 600;
     }
+}
+#pictureofme {
+    background-image: url("../images/index.jpg");
+    background-position: center;
 }
 #description {
     font-style: italic;
