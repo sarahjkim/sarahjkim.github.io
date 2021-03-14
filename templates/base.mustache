@@ -1,9 +1,9 @@
 <html>
 <head>
-    <title>Home | Sarah Kim</title>
+    <title>{{title}} | Sarah Kim</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/{{css}}.css"/>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <script src="assets/js/jquery-1.9.1.js"></script>
@@ -40,26 +40,32 @@
             </div>
         </div>
     </div>
-    <div id="content">
-        <div id="pictureofme"></div>
-        <div id="whiteside">
-            <div id="aboutme">
-                <div id="name">Sarah Jiyun Kim</div>
-                <div id="description">
-                    UC Berkeley Computer Science, 2016
-                </div>
-                <div class="header">Hello, World!</div>
-                <div class="text">
-                    I am a software engineer at Google. Previously, I was a student at UC Berkeley, where I was involved in the teaching community.
-                </div>
-                <div class="text">
-                    In my spare time, I enjoy reading books, learning more about the world, eating delicious food, spending time with family and friends, and sleeping. I also recently became interested in photography.
-                </div>
-                <div class="text">
-                    Thanks for visiting my site!
-                </div>
+    {{#blog}}
+    <div id="blogbar">
+        <div class="barcategory">
+            <div class="bartitle">Filter By Date</div>
+            <div class="categories">
+                <div class="all barpoint">All</div>
+                {{#months}}
+                <div id="{{id}}" class="barpoint">{{text}}</div>
+                {{/months}}
             </div>
         </div>
+        <div class="barcategory">
+            <div class="bartitle">Filter By Category</div>
+            <div class="categories">
+                <div class="all barpoint">All</div>
+                {{#categories}}
+                <div id="{{id}}" class="barpoint">{{text}}</div>
+                {{/categories}}
+            </div>
+        </div>
+    </div>
+    {{/blog}}
+    <div id="content">
+        {{#index}}
+        {{>index}}
+        {{/index}}
     </div>
 </body>
 </html>
