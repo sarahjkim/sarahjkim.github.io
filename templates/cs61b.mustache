@@ -1,0 +1,79 @@
+<div id="pagetitle">CS 61B Resources</div>
+    <div class="resource">
+        <div class="resourcetitle">Fall 2015 Section Information</div>
+        <div class="text condensedtext">
+            Discussion 116: Monday, 3-4 PM (3113 Etcheverry)</br>
+            Discussion 117: Tuesday, 5-6 PM (9 Evans)</br>
+            Lab 017: Thursday, 5-7 PM (275 Soda)</br>
+            Office Hours: Monday, 4-5:45 PM (B6 Evans)
+        </div>
+        <div class="text condensedtext">
+            Email: <a href="mailto:sarahjkim@berkeley.edu">sarahjkim@berkeley.edu</a></br>
+            <a href="https://docs.google.com/forms/d/16G37_NyvCYDNdPGfaSwL_hJm-OsFNX3I8RMfhMJUyS4/viewform">Send Me Feedback!</a>
+        </div>
+    </div>
+    <div class="resource">
+        <div class="resourcetitle">Q: How can I learn Git?</div>
+        <div class="text">
+            The <a href="https://git-scm.com/documentation">Pro Git</a> guide by Scott Chacon & Ben Straub on the official Git site is pretty awesome. Reading it (plus lots of experimenting) was actually how I learned Git myself.
+        </div>
+        <div class="text">
+            As I taught multiple semesters of students to use Git in CS 61B, I incrementally wrote and revised my own condensed guide to <a href="https://berkeley-cs61b.github.io/public_html/materials/guides/using-git.html">Using Git</a>. It only contains the basics of Git that I thought were most important for students to learn first. Many parts of it are inspired by the Pro Git guide, and I highly encourage more advanced students to go ahead and read the Pro Git guide for more details of how Git works under the covers and a survey of other features.
+        </div>
+        <div class="text">
+            Fun Fact: One of my earliest blog posts from <a href="blog/20131216.html">December 2013</a> was the very first draft of what would eventually become the Using Git guide. You can really see how much has changed in subsequent versions.
+        </div>
+        <div class="text">
+            But honestly, the ultimate best way to learn Git and become comfortable with it is to use it for your own projects! If you don't know the answer to a question, don't be clueless! Look at the <a href="https://git-scm.com/docs">Git man pages</a> and experiment!
+        </div>
+    </div>
+    <div class="resource">
+        <div class="resourcetitle">Q: How do I use Java's <a href="http://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html"><code>Serializable</code></a> interface?</div>
+        <div class="text">
+            Let's first answer the question of what the <code>Serializable</code> interface even allows you to do by considering a common use case for it. Let's say that we want to create some Java program that is able to maintain state across different distinct executions.
+        </div>
+        <div class="text">
+            One way we could achieve this effect is by saving all our important instance variables in files that we read in/out of for each execution. This - while being completely doable - is, however, in most simple cases made unnecessary by a built-in Java functionality called <code>Serializable</code>. Any class that <code>implements</code> the <code>Serializable</code> interface can convert its state into some form of information that can be saved into an output file then read back in just as easily.
+        </div>
+        <div class="text">
+            I think the best way to learn is by experimentation, so take a look at this example called <a href="assets/cs61b/Main.java"><code>Main.java</code></a>, which serializes a simple <code>Cat</code> class. Download it and try out the following commands.
+        </div>
+        <div class="text"><code>
+            $ javac Main.java</br>
+            $ java Main</br>
+            $ java Main Joey</br>
+            $ java Main</br>
+            $ java Main Daniel
+        </code></div>
+        <div class="text">
+            Perhaps at this point, you're wondering, "What in the world?! How was that possible?!" (If you're not, pretend you are at this point to humor me.) Here's where you should take a look at the code to see how simple it is to use <code>Serializable</code>!
+        </div>
+    </div>
+    <div class="resource">
+        <div class="resourcetitle">Q: Is Java pass-by-value or pass-by-reference?</div>
+        <div class="text">
+            Java is <u>pass-by-value</u>, and understanding this will help in making sense of why some functions modify their parameters while others do not. I suggest reading the first two answers on <a href="http://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value">Stack Overflow</a>. Also, this comment is particularly helpful:
+        </div>
+        <div class="text quote">
+            "Think about it this way. Someone has the address of Ann Arbor, MI on a slip of paper called <code>annArborLocation</code>. You copy it down on a piece of paper called <code>myDestination</code>. You can drive to <code>myDestination</code> and plant a tree. You may have changed something about the city at that location, but it doesn't change the LAT/LON that was written on either paper. You can change the LAT/LON on <code>myDestination</code> but it doesn't change <code>annArborLocation</code>." (<a href="http://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value#comment592104_73021">source</a>)
+        </div>
+        <div class="text">
+            If you come from a Python background, check out this <a href="http://robertheaton.com/2014/02/09/pythons-pass-by-object-reference-as-explained-by-philip-k-dick/">post</a> for information on how Python is pass-by-object-reference. Hopefully, this will help illustrate the differences/similarities between how the two languages work.
+        </div>
+    </div>
+    <div class="resource">
+        <div class="resourcetitle">Q: Why can't I access a variable outside of the loop it was created in?</div>
+        <div class="text">
+            All variables created inside a loop will be lost once the program exits the loop. This phenomenon is best explained by <u>variable scope</u> in Java. A local variable has a scope that limits it within the class, method, and loop (if applicable) it was declared in. The local scope of a variable is limited by the smallest scope that applies to it.
+        </div>
+        <div class="text">
+            Scope is important because <i>variables can only be used within their scope</i>. Let's work through some examples. Firstly, if a variable is defined within a class but outside of any methods or loops, it can be accessed throughout the class.
+        </div>
+        <div class="text">
+            Secondly, if a variable is defined within a class method but outside of any loops, it exists throughout the whole method (after it was initialized), but other methods do not have direct access to the variable. (The variable being passed into another method as a parameter does not count because Java is pass-by-value. If you have questions about this comment, reference the question above.)
+        </div>
+        <div class="text">
+            Finally, we get to the loop example. If a variable has been created within a loop, its most limiting scope is the loop. Thus, it can only be used within the loop. I thought <a href="http://www.java-made-easy.com/variable-scope.html">this page</a> was a helpful read on variable scope.
+        </div>
+    </div>
+</div>
