@@ -1,0 +1,24 @@
+{
+  "title": "Blog",
+  "css": "blog",
+  "blog": true,
+  "months": [
+    { "id": "201311", "text": "November 2013" },
+    { "id": "201312", "text": "December 2013" },
+    { "id": "201402", "text": "February 2014" },
+    { "id": "201404", "text": "April 2014" },
+    { "id": "201408", "text": "August 2014" },
+    { "id": "201501", "text": "January 2015" },
+    { "id": "201510", "text": "December 2015" },
+    { "id": "201701", "text": "January 2017" },
+    { "id": "201709", "text": "September 2017" },
+    { "id": "201711", "text": "November 2017" }
+  ],
+  "categories": [
+    { "id": "cs", "text": "Computer Science" },
+    { "id": "gov", "text": "Government" },
+    { "id": "personal", "text": "Personal" },
+    { "id": "trips", "text": "Trips" },
+    { "id": "years", "text": "Years of CS" }
+  ]
+}

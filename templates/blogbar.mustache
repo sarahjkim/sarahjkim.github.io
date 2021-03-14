@@ -1,0 +1,20 @@
+<div id="blogbar">
+    <div class="barcategory">
+        <div class="bartitle">Filter By Date</div>
+        <div class="categories">
+            <div class="all barpoint">All</div>
+            {{#months}}
+            <div id="{{id}}" class="barpoint">{{text}}</div>
+            {{/months}}
+        </div>
+    </div>
+    <div class="barcategory">
+        <div class="bartitle">Filter By Category</div>
+        <div class="categories">
+            <div class="all barpoint">All</div>
+            {{#categories}}
+            <div id="{{id}}" class="barpoint">{{text}}</div>
+            {{/categories}}
+        </div>
+    </div>
+</div>
