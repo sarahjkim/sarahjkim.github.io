@@ -1,0 +1,8 @@
+{
+  "title": "Seattle Highlights",
+  "additional_css": [
+    { "css": "common-blog" }
+  ],
+  "blogpost": true,
+  "id_20171129": true
+}
