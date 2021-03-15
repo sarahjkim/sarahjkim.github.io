@@ -1,5 +1,7 @@
 {
   "title": "CS 61B",
-  "css": "cs61bl",
+  "additional_css": [
+    { "css": "cs61bl" }
+  ],
   "cs61b": true
 }

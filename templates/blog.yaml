@@ -1,6 +1,8 @@
 {
   "title": "Blog",
-  "css": "blog",
+  "additional_css": [
+    { "css": "blog" }
+  ],
   "blog": true,
   "months": [
     { "id": "201311", "text": "November 2013" },

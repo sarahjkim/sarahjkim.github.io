@@ -1,5 +1,7 @@
 {
   "title": "Home",
-  "css": "index",
+  "additional_css": [
+    { "css": "index" }
+  ],
   "index": true
 }

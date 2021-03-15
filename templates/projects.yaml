@@ -1,5 +1,7 @@
 {
   "title": "Projects",
-  "css": "projects",
+  "additional_css": [
+    { "css": "projects" }
+  ],
   "projects": true
 }

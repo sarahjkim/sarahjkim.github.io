@@ -1,5 +1,7 @@
 {
   "title": "Organizations",
-  "css": "work",
+  "additional_css": [
+    { "css": "work" }
+  ],
   "organizations": true
 }
