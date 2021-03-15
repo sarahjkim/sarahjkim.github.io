@@ -24,5 +24,7 @@ generate_blogpost_html "20140209"
 generate_blogpost_html "20140408"
 generate_blogpost_html "20140424"
 generate_blogpost_html "20140823"
+generate_blogpost_html "20150102"
+generate_blogpost_html "20151019"
 
 exit 0
