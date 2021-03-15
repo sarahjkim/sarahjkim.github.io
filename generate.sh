@@ -20,5 +20,9 @@ generate_main_html work
 generate_blogpost_html "20131125"
 generate_blogpost_html "20131216"
 generate_blogpost_html "20131227"
+generate_blogpost_html "20140209"
+generate_blogpost_html "20140408"
+generate_blogpost_html "20140424"
+generate_blogpost_html "20140823"
 
 exit 0

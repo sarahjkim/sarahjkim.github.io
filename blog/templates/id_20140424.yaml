@@ -1,0 +1,9 @@
+{
+  "title": "Hosting Static Websites with GitHub Pages",
+  "additional_css": [
+    { "css": "common-blog" },
+    { "css": "20140424" }
+  ],
+  "blogpost": true,
+  "id_20140424": true
+}
