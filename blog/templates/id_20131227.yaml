@@ -1,0 +1,9 @@
+{
+  "title": "One Year of CS",
+  "additional_css": [
+    { "css": "common-blog" },
+    { "css": "20131227" }
+  ],
+  "blogpost": true,
+  "id_20131227": true
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Version Control",
+  "additional_css": [
+    { "css": "common-blog" },
+    { "css": "20131216" }
+  ],
+  "blogpost": true,
+  "id_20131216": true
+}
