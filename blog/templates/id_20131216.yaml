@@ -1,9 +1,13 @@
 {
-  "title": "Version Control",
+  "title": "What I Now Know About Version Control (Part 1)",
   "additional_css": [
     { "css": "common-blog" },
     { "css": "20131216" }
   ],
   "blogpost": true,
-  "id_20131216": true
+  "id_20131216": true,
+  "disqus": {
+    "post_id": "20131216",
+    "category_id":  "2739669"
+  }
 }
