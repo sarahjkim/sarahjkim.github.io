@@ -1,8 +1,12 @@
 {
-  "title": "Response to Breeding Tech Elite",
+  "title": "A Response to 'Breeding the Tech Elite'",
   "additional_css": [
     { "css": "common-blog" }
   ],
   "blogpost": true,
-  "id_20140209": true
+  "id_20140209": true,
+  "disqus": {
+    "post_id": "20140209",
+    "category_id":  "2739669"
+  }
 }
