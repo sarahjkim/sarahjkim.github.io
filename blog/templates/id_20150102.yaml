@@ -4,5 +4,9 @@
     { "css": "common-blog" }
   ],
   "blogpost": true,
-  "id_20150102": true
+  "id_20150102": true,
+  "disqus": {
+    "post_id": "20150102",
+    "category_id":  "2739669"
+  }
 }

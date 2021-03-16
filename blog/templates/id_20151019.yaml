@@ -5,5 +5,9 @@
     { "css": "20140823" }
   ],
   "blogpost": true,
-  "id_20151019": true
+  "id_20151019": true,
+  "disqus": {
+    "post_id": "20151019",
+    "category_id":  "2739669"
+  }
 }
