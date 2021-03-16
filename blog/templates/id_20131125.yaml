@@ -1,8 +1,12 @@
 {
-  "title": "Snowden",
+  "title": "Edward Snowden Is A Whistleblower",
   "additional_css": [
     { "css": "common-blog" }
   ],
   "blogpost": true,
-  "id_20131125": true
+  "id_20131125": true,
+  "disqus": {
+    "post_id": "20131125",
+    "category_id":  "2739670"
+  }
 }
