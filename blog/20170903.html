@@ -217,16 +217,18 @@
         <div class="pic"><img src="assets/images/20170903/DSC_4808.JPG"></div>
         <div id="space"></div>
         <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            var disqus_shortname = 'sarahjikim';
-            var disqus_identifier = '20170903';
-            var disqus_title = 'Japan Trip Highlights';
-            var disqus_url = 'http://www.sarahjikim.com/blog/20170903.html';
-            var disqus_category_id = '2739669';
+        <script>
+            var disqus_config = function () {
+                this.page.url = 'http://www.sarahjikim.com/blog/20170903.html';
+                this.page.identifier = '20170903';
+                this.page.title = 'Japan Trip Highlights';
+                this.page.category_id = '2739669';
+            };
             (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                var d = document, s = d.createElement('script');
+                s.src = 'https://sarahjikim.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
             })();
         </script>
         <noscript>Please enable JavaScript to view <a href="http://disqus.com/?ref_noscript">comments</a>.</noscript>
