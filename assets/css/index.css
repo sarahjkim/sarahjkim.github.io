@@ -62,7 +62,7 @@
 }
 #pictureofme {
     background-image: url("../images/index.jpg");
-    background-position: center;
+    background-position: left;
 }
 #description {
     font-style: italic;
